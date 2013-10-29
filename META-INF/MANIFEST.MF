@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java
+Bundle-SymbolicName: editor.scala;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: editor.scala.Activator
+Require-Bundle: 
+ org.eclipse.core.runtime,
+ org.eclipse.help,
+ org.eclipse.ui,
+ org.scala-ide.scala.library
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
