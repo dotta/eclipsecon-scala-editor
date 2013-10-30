@@ -8,7 +8,7 @@ object Activator {
 
   val PLUGIN_ID = "editor.scala"
 
-  private var plugin: Activator = _
+  @volatile private var plugin: Activator = _
 
   /**
    * Returns the shared instance
