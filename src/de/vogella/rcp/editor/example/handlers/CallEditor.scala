@@ -8,7 +8,6 @@ import de.vogella.rcp.editor.example.MyPersonEditor
 import de.vogella.rcp.editor.example.MyPersonEditorInput
 import de.vogella.rcp.editor.example.View
 import de.vogella.rcp.editor.example.model.Person
-import util.view.ViewUtil
 
 class CallEditor extends AbstractHandler {
 
